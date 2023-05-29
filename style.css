@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  overflow: hidden;
+}
+
+:root {
+  font-size: 62.5%;
+  --body-bg-color: #FAF7FD;
+  --purple: #BB99DD;
+}
+
+body {
+  background-color: var(--body-bg-color);
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.6rem;
+}
+
+.content{
+  width: 45rem;
+  margin: 6rem auto;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.content > header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+
+.content > header > img {
+  width: 18rem;
+  height: 18rem;
+  border: solid 2px var(--purple);
+  border-radius: 50%;
+}
+.content > header > p {
+  color: #BB99DD;
+  font-weight: 300;
+}
+.content > main {
+  width: 36rem;
+  height: 25rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+  
+  margin-bottom:6.8rem;
+}
+
+.content > main > a {
+  border: #BB99DD 2px solid;
+  width: 32.6rem;
+  height: 3.9rem;
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-weight: 600;
+ 
+  
+  
+} 
+
+.content > main > a:hover{
+  transform: scale(1.05);
+  transition:.5s ;
+ 
+}
+
+.content > footer > ul {
+  display: flex;
+  gap: 0 2.9rem;
+}
+
